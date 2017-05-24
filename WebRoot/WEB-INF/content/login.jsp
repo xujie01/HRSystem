@@ -23,7 +23,7 @@
 <div align="center">
 <s:form action="processLogin">
 	<s:textfield name="manager.name" label="用户名" value="tomcat"/>
-	<s:textfield name="manager.pass" label="密码" value="tomcat"/>
+	<s:textfield name="manager.pass" label="密码" value="tomcat" type="password"/>
 	<s:textfield name="vercode" label="验证码"/>
 	<tr><td colspan="2">
 	<s:submit value="登录" theme="simple"/><s:reset  theme="simple" value="重填"/>
