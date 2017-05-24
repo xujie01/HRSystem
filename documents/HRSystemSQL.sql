@@ -1,4 +1,4 @@
-﻿drop database if exists hrSystem;
+drop database if exists hrSystem;
 
 create database hrSystem;
 
